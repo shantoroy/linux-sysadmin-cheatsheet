@@ -3087,6 +3087,29 @@ docker tag custom-flask-app:latest username/custom-flask-app:latest
 docker push username/custom-flask-app:latest
 ```
 
+#### Copying Files to Host
+1. Use docker cp (Recommended for Copying)
+You can copy files or directories from the running container to your host using:
+
+```sh
+docker cp <container_id>:/app/data /path/on/host
+```
+
+Example:
+```sh
+docker cp my_container:/app/data ~/my_local_data
+```
+
+2. Bind Mount or Volume (Recommended for Persistent Access)
+If you need continuous access, mount a host directory to /app/data when starting the container:
+
+```sh
+docker run -v /path/on/host:/app/data my_image
+```
+
+
+Now, any files written to /app/data inside the container will also be available in /path/on/host on your machine.
+
 ### Kubernetes Operations
 
 #### Basic kubectl commands
