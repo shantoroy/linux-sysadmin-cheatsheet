@@ -8,9 +8,31 @@ This repository contains a curated collection of Linux commands, practical scena
 
 ## Contents
 
-- **[commands.md](commands.md)**: Comprehensive list of Linux commands organized by category
-- **[scenarios.md](scenarios.md)**: Real-world scenarios with command solutions and examples
-- Additional scripts and configuration files
+#### Comprehensive list of Linux commands organized by category
+- [Linux Commands All-in-one](commands.md)
+
+#### Real-world scenarios with command solutions and examples
+
+- [YUM Package Management](scenarios/yum-package-management.md)
+- [Text Manipulation Scenarios](scenarios/text-manipulation.md)
+- [File Management Scenarios](scenarios/file-management.md)
+- [Log Analysis and Management](scenarios/log-analysis-and-management.md)
+- [User Management Scenarios](scenarios/user-management.md)
+- [Process Management Scenarios](scenarios/process-management.md)
+- [Disk Management Scenarios](scenarios/disk-management.md)
+- [Networking Scenarios](scenarios/networking.md)
+- [Security Scenarios](scenarios/security.md)
+- [SSL/TLS Certificate Management](scenarios/ssltls-certificate-management.md)
+- [System Monitoring Scenarios](scenarios/system-monitoring.md)
+- [Database Server Management](scenarios/database-server-management.md)
+- [Web Server Management](scenarios/web-server-management.md)
+- [Container Management](scenarios/container-management.md)
+- [Cloud management](scenarios/cloud-management.md)
+- [Filesystem Management](scenarios/filesystem-management.md)
+- [Automation and Scripting](scenarios/automation-scripting.md)
+- [Scheduling Automation](scenarios/scheduling-automation.md)
+- [Useful Shortcuts](scenarios/useful-shortcuts.md)
+
 
 ## Usage
 
